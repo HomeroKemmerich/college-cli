@@ -12,7 +12,11 @@ mkdir .\Classes\%year%%month%%day%_class
 cd .\Classes\%year%%month%%day%_class
 
 REM Criar o arquivo README.md
-echo # %1 > README.md
+echo --- >> README.md
+echo date: %year%-%month%-%day% >> README.md
+echo title: Review %year%-%month%-%day% >> README.md
+echo --- >> README.md
+echo # %1 >> README.md
 
 
 
