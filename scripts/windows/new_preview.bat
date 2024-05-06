@@ -13,8 +13,9 @@ cd .\Classes\%year%%month%%day%_preview
 
 REM Criar o arquivo README.md
 echo --- >> README.md
-echo date: %year%-%month%-%day% >> README.md
 echo title: Review %year%-%month%-%day% >> README.md
+echo date: %year%-%month%-%day% >> README.md
+echo type: preview >> README.md
 echo --- >> README.md
 echo # %1 >> README.md
 
